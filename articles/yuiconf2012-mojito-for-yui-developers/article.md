@@ -1,0 +1,6 @@
+<p>When/Where: Nov 14th 2012, YUIConf in Santa Clara, CA.</p>
+<p>We use YUI on the daily basis in a form of building blocks, but when it comes to boilerplating our projects, we are on our own. Mojito provides a unique opportunity for YUI developers to speed up the development process by providing boilerplate and building capabilities for YUI projects by offering a variety of options to build traditional YUI web apps, mobile apps to deploy on devices, and Node.JS applications as well. It does it by leveraging YUI Library and YUI Tool chains to build at scale.</p>
+<p>Here is the recorded <a href="http://www.youtube.com/watch?v=e-wspy6DicE&amp;hd=1">video</a>:</p>
+<p><iframe width="608" height="456" src="http://www.youtube.com/embed/e-wspy6DicE" frameborder="0" allowfullscreen=""></iframe></p>
+<p>Here are the <a href="http://www.slideshare.net/caridy/yuiconf2012-mojito-for-yui-developers">slides</a>:</p>
+<p><iframe src="http://www.slideshare.net/slideshow/embed_code/15181276" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>

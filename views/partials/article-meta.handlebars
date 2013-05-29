@@ -1,0 +1,17 @@
+<div class="pure-g-r meta">
+    <div class="pure-u-1">
+        <div class="l-box">
+            <span class="article-date">{{article.formatted_date}}</span>
+            <span class="article-all"><a href="/blog/">More Articles</a></span>
+            {{#if article.tags}}
+                <span class="article-tags">
+                Tags:
+                {{#article.tags}}
+                    <a href="/tag/{{.}}">{{.}}</a>,
+                {{/article.tags}}
+                <a href="/blog/">all</a>
+                </span>
+            {{/if}}
+        </div>
+    </div>
+</div>

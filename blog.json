@@ -1,0 +1,20 @@
+{
+	"title": "Caridy &#8211; Random Bubbles",
+	"description": "Nodejs, Javascript, AJAX and Advanced Web Apps",
+	"keywords": [
+		"nodejs",
+		"javascript",
+		"mojito",
+		"yui",
+		"express"
+	],
+	"authors": {
+		"caridy": {
+			"name": "Caridy Patiño",
+			"gravatar": "caridy@gmail.com",
+			"github": "caridy"
+		}
+	},
+	"articles": "articles",
+	"domain": "http://caridy.name"
+}

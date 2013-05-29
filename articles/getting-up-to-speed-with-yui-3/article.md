@@ -1,0 +1,70 @@
+<p>Few folks asked me about <a href="http://developer.yahoo.com/yui/3/">YUI 3</a> and how they can get up to speed with this new version of <a href="http://developer.yahoo.com/yui/">Yahoo! User Interface Library</a>. Well, here is a quick guide to get up to speed in 3 days. Yes you heard me right, only 3 days, assuming you already know JavaScript and <a href="http://developer.yahoo.com/yui/2/">YUI 2</a>. <img src="http://caridy.name/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley"> </p>
+<h3>First block (day one) – General Architecture</h3>
+<p>In the first day, you will have to expend around 4 hours watching videos, getting a lot of information. There is not time to tackle this little by little, hahahaha.  It’s better to get the whole insight in a row.</p>
+<p><strong>(Day 1, Task 1). General Concepts</strong></p>
+<p style="padding-left: 30px;">Let’s start with a general talk by Nicholas. He really explores some of the basic design principles used to build YUI 3. He didn’t mention YUI 3, but I believe if you understand these general concepts, will be easy for you to understand YUI 3.</p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/theater/video.php?v=zakas-architecture"><strong>Nicholas C. Zakas — Scalable JavaScript Application Architecture</strong></a><br>
+Frontend architecture for complex, modular web applications with significant JavaScript elements.<br>
+http://developer.yahoo.com/yui/theater/video.php?v=zakas-architecture
+<p style="padding-left: 30px;">Then you can jump for the real stuff. These 3 videos were recorded during YUI Conf 2009, and are essential in the process of understanding the underlying concepts behind YUI 3.</p>
+<p><strong>(Day 1, Task 2). YUI Infrastructure</strong></p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/theater/video.php?v=miraglia-yuiconf2009-yui3">Eric Miraglia — Welcome to YUI 3</a><br>
+YUI engineer Eric Miraglia provides a high-level introduction to key concepts underlying the YUI 3 codeline.<br>
+http://developer.yahoo.com/yui/theater/video.php?v=miraglia-yuiconf2009-yui3
+<p><strong>(Day 1, Task 3). Events Infrastructure</strong></p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/theater/video.php?v=smith-yuiconf2009-events">Luke Smith — Events Evolved</a><br>
+YUI engineer Luke Smith provides a deep introduction to the YUI 3 event system including its support for DOM events, event delegation, synthetic events, and custom events.<br>
+http://developer.yahoo.com/yui/theater/video.php?v=smith-yuiconf2009-events
+<p><strong>(Day 1, Task 4). Widget Infrastructure<br>
+</strong></p>
+<p style="padding-left: 30px;"><strong> </strong> <a href="http://developer.yahoo.com/yui/theater/video.php?v=desai-yuiconf2009-widgets">Satyen Desai — A Widget Walkthrough</a><br>
+YUI engineer Satyen Desai provides a detailed tour of the YUI 3 widget subsystem. (Slides).<br>
+http://developer.yahoo.com/yui/theater/video.php?v=desai-yuiconf2009-widgets
+<h3>Second Block (day two) – Experimenting</h3>
+<p>In this second block you will be able to get some insight, checking some real examples, and getting some feeling about the new code style and the new infrastructure.</p>
+<p><strong><strong>(Day 2, Task 1). </strong>Playing with the Official Examples</strong></p>
+<p style="padding-left: 30px;">You should spend some time checking some of these examples. Keep in mind that for every example in the library we have a page with the full explanation, this can help you to understand better how things work. Here is an <a href="http://developer.yahoo.com/yui/3/examples/anim/basic.html">example</a>, and has you can see, there is a link to display the <a href="http://developer.yahoo.com/yui/3/examples/anim/basic_clean.html">working example</a> in a new page, or you can see it within the iframe and the description is below that.</p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/3/examples/">YUI 3: Index of Examples</a><br>
+YUI 3 ships with a series of 130 examples that illustrate the implementation of its components. The examples can be starting points for your exploration, code snippets to jump-start your own programming, or simply inspiration as to how various interaction patterns can be enabled in the web browser via YUI.<br>
+http://developer.yahoo.com/yui/3/examples/
+<p><strong><strong>(Day 2, Task 2). </strong>Checking the state of the library<br>
+</strong></p>
+<p style="padding-left: 30px;">It’s important to understand the state of the library, the list of available modules, and the state of each module. Keep in mind that every module contains a landing page with some information (the most important), but there are some more pages and the API Docs with tons of valuable info. Don’t spend too much time digging from here, it’s better to explore each component when needed, having a real use-case in mind.
+http://developer.yahoo.com/yui/3/
+<p style="padding-left: 30px;">Try to focus on “Core” and “Component Infrastructure” sections. Also, spend some time reviewing the <a href="http://developer.yahoo.com/yui/3/configurator/">dependency configurator</a> tool, it will give you some feeling about the granularity and the organization.<br>
+http://developer.yahoo.com/yui/3/configurator/
+<p><strong>(Day 2, Task 3). Debugging</strong></p>
+<p style="padding-left: 30px;">Now that you have nailed down some of the general concepts, and you will start checking some examples and putting some examples on your own, it’s important to know how the debug your code. YUI 3 offers a variety of tools and utilities to help you during the development process:</p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/theater/video.php?v=smith-yuiconf2009-debugging">Luke Smith — Debugging in YUI 3</a><br>
+YUI engineer Luke Smith discusses the fine art of debugging web applications, looking at general tools and techniques and providing a few specific hints about debugging in YUI 3.<br>
+http://developer.yahoo.com/yui/theater/video.php?v=smith-yuiconf2009-debugging
+<p><strong>(Day 2, Task 4). Performance Implications</strong></p>
+<p style="padding-left: 30px;">With YUI 3 we are trying to beat all the barriers in terms of performance. Normally is not recommended to introduce performance optimization in the early stages for a project, it’s important to know the general concepts behind YUI 3 Loading process, and how to leverage YUI 3 infrastructure to create hight performance web applications.</p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/theater/video.php?v=sweeney-yuiconf2009-performance">Matt Sweeney — YUI 3 Performance</a><br>
+YUI architect Matt Sweeney reviews principles of high-performance web development and looks at how best to implement those principles in YUI 3-based projects.<br>
+http://developer.yahoo.com/yui/theater/video.php?v=sweeney-yuiconf2009-performance
+<p>After that, you should be able to continue with the library documentation and the examples.</p>
+<h3>Third Block (day three) –  Extending and Contributing</h3>
+<p><strong>(Day 3, Task 1). Creating your own modules</strong></p>
+<p style="padding-left: 30px;"><a href="http://www.slideshare.net/caridy/building-yui-3-custom-modules">Caridy Patino – Building YUI 3 Custom Modules</a><br>
+Learn how to leverage the YUI 3.x infrastructure to create custom code that can be loaded easily and efficiently onto any page. Also discover how these mashups can combine YUI widgets and utilities with your own code and how to reuse code between different YUI instances.<br>
+http://www.slideshare.net/caridy/building-yui-3-custom-modules
+<p><strong>(Day 3, Task 2). A real world use-case</strong></p>
+<p style="padding-left: 30px;">In every project, is always good to get a different angle, a different perspective, and outsider insight:</p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/theater/video.php?v=ericf-yuiconf2009-webapps">Eric Ferraiuolo — Web App Development with YUI 3</a><br>
+Eric Ferraiuolo of Oddnut Software talks about the nuances of deploying real-world web applications using YUI 3.<br>
+http://developer.yahoo.com/yui/theater/video.php?v=ericf-yuiconf2009-webapps
+<p><strong>(Day 3, Task 3). How to contributing to YUI</strong></p>
+<p style="padding-left: 30px;">If you’re really into YUI, you should take the time to check this awesome video from Dav Glass:</p>
+<p style="padding-left: 30px;"><a href="http://developer.yahoo.com/yui/theater/video.php?v=glass-yuiconf2009-contributing">Dav Glass — Contributing to YUI</a><br>
+YUI engineer Dav Glass introduces you to the YUI Gallery and steps through the process of making contributions to the YUI project.<br>
+http://developer.yahoo.com/yui/theater/video.php?v=glass-yuiconf2009-contributing
+<p style="padding-left: 30px;">Check the YUI 3 gallery here:<br>
+http://yuilibrary.com/gallery/
+<h3>Few more thoughts</h3>
+<p>There is a bunch of videos in the <a href="http://developer.yahoo.com/yui/theater/">YUI Theater</a>, make sure that you check them, some of them are really useful, other are very technical or diving into an specific subject. Also, there are a bunch of them explaining in details some of the tools created by YUI Team as well.<br>
+http://developer.yahoo.com/yui/theater/
+<p>YUI Blog is another good reason to keep you updated about the library. Including some good articles (again, some technical deep dive).<br>
+http://www.yuiblog.com/
+<p>And finally, you can join us thru the community. <a href="http://yuilibrary.com/">This site</a>, with such a great organization, provides multiple ways to get in contact with YUI Core Team, YUI Contributors and the community in general.<br>
+http://yuilibrary.com/

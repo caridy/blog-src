@@ -1,0 +1,9 @@
+<div class="content pure-u-1">
+    <h1 class="pure-u-1"><a href="/blog/">Archives</a></h1>
+    {{#articles}}
+        <div class="pure-g-r l-sep" id="archives">
+            <div class="pure-u-2-3"><a href="{{path}}">{{title}}</a></div>
+            <div class="pure-u-1-3 l-right">{{formatted_date}}</div>
+        </div>
+    {{/articles}}
+</div>
