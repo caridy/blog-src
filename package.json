@@ -1,7 +1,7 @@
 {
     "name": "caridy",
     "description": "Caridy Patiño Blog",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "http://caridy.name/",
     "author": "Caridy Patino <caridy@gmail.com> (http://github.com/caridy)",
     "engines": {
@@ -9,7 +9,7 @@
         "npm" : ">=1.2.10"
     },
     "dependencies": {
-        "flipflop": "git@github.com:caridy/flipflop.git"
+        "flipflop": "git://github.com/caridy/flipflop.git"
     },
     "main": "index",
     "keywords": [
