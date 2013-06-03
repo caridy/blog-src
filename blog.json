@@ -16,5 +16,6 @@
 		}
 	},
 	"articles": "articles",
-	"domain": "http://caridy.name"
+	"domain": "http://caridy.name",
+	"buildDir": "../blog-gh-pages/"
 }
