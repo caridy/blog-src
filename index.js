@@ -9,7 +9,7 @@ module.exports = {
         "gmail",
         ".",
         "com"
-    ].join(),
+    ].join(''),
     c: [
         3 * 100 + 5,
         150 * 2 + 2,
