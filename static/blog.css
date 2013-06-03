@@ -3,7 +3,6 @@ body {
     color: #777;
 }
 
-
 /* Add transition to containers so they can push in and out */
 #layout, #menu, #menu .pure-menu-link {
     -webkit-transition: all 0.2s ease-out;
@@ -13,12 +12,10 @@ body {
     transition: all 0.2s ease-out;
 }
 
-
 /* --------------------------
  * Element Styles
  * --------------------------
 */
-
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
@@ -47,14 +44,11 @@ dd {
 */
 
 #layout {
+    font-size: 1.3em;
 }
 
 #main {
     width: 100%;
-}
-
-#archives {
-    font-size: 1.2em;
 }
 
 /* Apply the .box class on the immediate parent of any grid element (pure-u-*) to apply some padding. */
@@ -88,7 +82,6 @@ dd {
  * --------------------------
 */
 .header {
-     min-height: 80px;
      margin: 0;
      color: #333;
      padding: 1em;
@@ -106,16 +99,6 @@ dd {
          margin: 0;
          color: #ccc;
      }
-
-aside {
-    background: #cce1ef; /* normal color palette when primary color palette is at #1f8dd6 */
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    color: #163246; /* block-normal-text-high */
-}
-    .aside a, .aside a:visited {
-        color: #1f8dd6;
-    }
 
  /* --------------------------
   * Content Module Styles
@@ -176,13 +159,13 @@ aside {
     }
 
     .meta .article-date {
+        padding-right: 3em;
     }
     .meta .article-all {
-        padding-left: 3em;
+        padding-right: 3em;
         text-transform: uppercase;
     }
     .meta .article-tags {
-        padding-left: 3em;
     }
 
 /* --------------------------
@@ -243,15 +226,6 @@ aside {
     color: white;
 }
 
-.pure-button {
-    font-family: inherit;
-    color: auto;
-}
-
-.muted {
-    color: #ccc;
-}
-
 /* --------------------------
  * Responsive Styles
  * --------------------------
@@ -259,11 +233,18 @@ aside {
 
 @media (max-width: 870px) {
 
-    /* Navigation Push Styles */
     #layout {
         position: relative;
     }
 
+    .header h1 {
+        margin: 0.1em 0;
+        font-size: 2em;
+    }
+
+    .footer h1 {
+        font-size: 1.6em;
+    }
 }
 
 @media (max-width: 767px) {
@@ -277,19 +258,28 @@ aside {
         font-size: 90%;
     }
 
+        .footer-centered {
+            width: 90%;
+        }
+
     /* normalize paddings on small screens*/
     .l-hbox {
         padding: 1.3em;
     }
 
+    .footer .l-box {
+        padding: 0.2em;
+    }
+
     .meta span {
         display: block;
-        padding: 1.2em;
+        padding: 0.5em;
         text-align: left;
     }
-        .meta span a {
-            padding-left: 0;
-        }
+
+    #pic {
+        margin: 0 auto 20px auto;
+    }
 
 }
 

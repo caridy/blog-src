@@ -1,16 +1,15 @@
--   var xml ='<?xml version="1.0" encoding="utf-8"?>'
-!{xml}
-rss(version="2.0")
-    channel
-        title #{blogTitle}
-        link(href=domain)
-        author
-            name Brad Harris
-        for article in articles
-            item
-                title #{article.title}
-                link(href=domain+article.path)
-                pubDate #{article.date}
-                description
-                    :cdata
-                        !{article.content}
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>{{blogTitle}}</title>
+        <link>{{{domain}}}</link>
+        {{#articles}}
+            <item>
+                <title>{{title}}</title>
+                <link>{{../domain}}{{path}}</link>
+                <pubDate>{{date}}</pubDate>
+                <description><![CDATA[{{{content}}}]]></description>
+            </item>
+        {{/articles}}
+    </channel>
+</rss>
