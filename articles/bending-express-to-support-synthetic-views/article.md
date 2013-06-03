@@ -65,7 +65,7 @@ app.listen(3000);
 
 If you decide to change the `View` component's prototype, you will have to validate your implementation against new versions of Express because the implementation might change in the future. My recommendation at this point is to replace it with your own implementation as it is a fairly simple component with a very specific responsibility.
 
-[View.js] describes how to implement a `View` component that can work with a DB, a REST-like API, a global memory hash, or a compiled view accessible through `require()`. It pretty much covers all the options you have today to fetch and compile a template bound to a view instance.
+In this gist, [View.js][]<sup>[4]</sup> describes how to implement a `View` component that can work with a DB, a REST-like API, a global memory hash, or a compiled view accessible through `require()`. It pretty much covers all the options you have today to fetch and compile a template bound to a view instance.
 
 ## Compiled Templates for Better Performance and Interoperability
 
@@ -82,3 +82,6 @@ The new `view` setting introduced in `express@3.2.0` provides a simple way to re
  1. [Express](http://expressjs.com) (Official Website)
  2. [express3-handlebars](http://github.com/ericf/express3-handlebars) (GitHub)
  3. [Handlebars](http://handlebarsjs.com/) (Official Website)
+ 4. [Gist with sample](https://gist.github.com/caridy/b925ab5f6c1023765172)
+
+[View.js]: https://gist.github.com/caridy/b925ab5f6c1023765172#file-view-js
