@@ -1,0 +1,32 @@
+{
+    "name": "caridy",
+    "description": "Caridy Patiño Blog",
+    "version": "0.0.1",
+    "homepage": "http://caridy.name/",
+    "author": "Caridy Patino <caridy@gmail.com> (http://github.com/caridy)",
+    "engines": {
+        "node": ">=0.8.x",
+        "npm" : ">=1.2.10"
+    },
+    "dependencies": {
+        "flipflop": "git@github.com:caridy/flipflop.git"
+    },
+    "main": "index",
+    "keywords": [
+        "caridy",
+        "patino",
+        "patiño",
+        "blog"
+    ],
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/caridy/blog.git"
+    },
+    "bugs": {
+        "url": "https://github.com/caridy/blog/issues"
+    },
+    "scripts": {
+        "build": "node node_modules/flipflop/bin/flipflop generate",
+        "start": "node node_modules/flipflop/bin/flipflop start"
+    }
+}
