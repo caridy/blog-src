@@ -1,4 +1,4 @@
-caridy.name blog
+caridy.name/blog
 ================
 
 Goals & Design
