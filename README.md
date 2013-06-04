@@ -13,8 +13,8 @@ Installation
 Install using npm:
 
 ```shell
-$ git clone https://github.com/caridy/blog.git
-$ cd blog
+$ git clone https://github.com/caridy/blog-src.git
+$ cd blog-src
 $ npm install
 ```
 
@@ -33,7 +33,7 @@ $ open http://localhost:8080/index.html
 
 ```shell
 $ npm run build
-$ open gh-pages/index.html
+$ open ../caridy.github.com/blog/index.html
 ```
 
 

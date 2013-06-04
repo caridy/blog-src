@@ -1,8 +1,8 @@
 {
     "name": "caridy",
-    "description": "Caridy Patiño Blog",
-    "version": "0.0.3",
-    "homepage": "http://caridy.name/",
+    "description": "Caridy Patiño - Blog Engine based on flipflop",
+    "version": "0.0.4",
+    "homepage": "http://caridy.name/blog/",
     "author": "Caridy Patino <caridy@gmail.com> (http://github.com/caridy)",
     "engines": {
         "node": ">=0.8.x",
@@ -20,10 +20,10 @@
     ],
     "repository": {
         "type": "git",
-        "url" : "https://github.com/caridy/blog.git"
+        "url" : "https://github.com/caridy/blog-src.git"
     },
     "bugs": {
-        "url": "https://github.com/caridy/blog/issues"
+        "url": "https://github.com/caridy/blog-src/issues"
     },
     "scripts": {
         "build": "node node_modules/flipflop/bin/flipflop generate",

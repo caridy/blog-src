@@ -17,5 +17,5 @@
 	},
 	"articles": "articles",
 	"domain": "http://caridy.name",
-	"buildDir": "../blog-gh-pages/"
+	"buildDir": "../caridy.github.com/blog/"
 }
