@@ -16,7 +16,7 @@ The application is based on regions/webparts that represent certain areas. Usual
 <h3>Application timeline:</h3>
 <p>These two diagrams represent a page/app in which, for the sake of example,  contain only two regions (left-column-renderer and ad-renderer).</p>
 <p><strong>Traditional process</strong>: inserting tags within default DOM structure of every page.</p>
-<div class="wp-caption aligncenter" style="width: 615px"><img title="Default Browser Loader: Loading and Execution Timeline" src="http://caridy.name/imgs/browser-timeline.jpg" alt="Default Browser Loader: Loading and Execution Timeline" width="605" height="321"><p class="wp-caption-text">Default Browser Loader: Loading and Execution Timeline</p></div>
+<div class="wp-caption aligncenter" style="width: 615px"><img title="Default Browser Loader: Loading and Execution Timeline" src="http://caridy.github.io/imgs/browser-timeline.jpg" alt="Default Browser Loader: Loading and Execution Timeline" width="605" height="321"><p class="wp-caption-text">Default Browser Loader: Loading and Execution Timeline</p></div>
 <p><em>Notes for this diagram</em>:</p>
 <ul>
 <li>it represents a generic app timeline for a simple page with a bunch of script tags.</li>
@@ -27,7 +27,7 @@ The application is based on regions/webparts that represent certain areas. Usual
 <li>“<em>…other…</em>” represents other regions in the application.</li>
 </ul>
 <p><strong>On-demand loading process</strong>: using YUI Loader to load the requirements and YUI Get Utility to execute the initialization processes for each region.</p>
-<div class="wp-caption aligncenter" style="width: 610px"><img title="YUI Loader and Get Utility: Loading and Execution Timeline" src="http://caridy.name/imgs/yui-loader-timeline.jpg" alt="Loading and Execution Timeline" width="600" height="400"><p class="wp-caption-text">YUI Loader and Get Utility: Loading and Execution Timeline</p></div>
+<div class="wp-caption aligncenter" style="width: 610px"><img title="YUI Loader and Get Utility: Loading and Execution Timeline" src="http://caridy.github.io/imgs/yui-loader-timeline.jpg" alt="Loading and Execution Timeline" width="600" height="400"><p class="wp-caption-text">YUI Loader and Get Utility: Loading and Execution Timeline</p></div>
 <p><em>Notes for this diagram</em>:</p>
 <ul>
 <li>we use some of the elements described in the previous one.</li>

@@ -2,10 +2,10 @@
     "name": "caridy",
     "description": "Caridy Patiño - Blog Engine based on flipflop",
     "version": "0.0.4",
-    "homepage": "http://caridy.name/blog/",
+    "homepage": "http://caridy.github.io/",
     "author": "Caridy Patino <caridy@gmail.com> (http://github.com/caridy)",
     "engines": {
-        "node": ">=0.8.x",
+        "node": "=v0.8.28",
         "npm" : ">=1.2.10"
     },
     "dependencies": {

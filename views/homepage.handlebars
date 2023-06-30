@@ -1,5 +1,16 @@
-<div class="content pure-u-1">
-    <h1 class="pure-u-1"><a href="{{{article.path}}}">{{article.title}}</a></h1>
-    {{{article.content}}}
-</div>
-{{> article-meta}}
+<section id="about">
+    <h1>About Caridy</h1>
+    <p>Welcome to Caridy's Codex, a digital archive of thoughts and insights by Caridy Patiño. As a Computer Scientist working as a Principal Architect at Salesforce, Inc., and a proud Yahoo! Alumni, Caridy is a passionate web enthusiast, he has dedicated his career to the evolution of JavaScript and web. His expertise lies in designing high performance and scalable platforms for the web, he is an expert in web security, and he has had the privilege to be an active participant of evolution of EcmaScript Language as a member of Ecma TC39 committee for more than a decade.</p>
+    <p>Got a question or just want to connect? Feel free to reach out on <a href="http://twitter.com/caridy">Twitter</a> or via email to caridy at gmail dot com.</p>
+</section>
+
+<section id="articles">
+    <h1>Latest Articles</h1>
+    <ul>
+        {{#articles}}
+            {{#if promote}}
+                <li><a href="{{path}}">{{title}}</a> | {{formatted_date}}</li>
+            {{/if}}
+        {{/articles}}
+    </ul>
+</section>

@@ -1,6 +1,6 @@
 {
-	"title": "Caridy - Random Bubbles",
-	"description": "Nodejs, Javascript, AJAX and Advanced Web Apps",
+	"title": "Caridy's Codex",
+	"description": "A digital archive of thoughts and insights by Caridy Patiño",
 	"keywords": [
 		"nodejs",
 		"javascript",
@@ -16,6 +16,6 @@
 		}
 	},
 	"articles": "articles",
-	"domain": "http://caridy.name",
+	"domain": "http://caridy.github.io/",
 	"buildDir": "../caridy.github.com/blog/"
 }

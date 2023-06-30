@@ -1,17 +1,10 @@
-<div class="pure-g-r meta">
-    <div class="pure-u-1">
-        <div class="l-box">
-            <span class="article-date">{{article.formatted_date}}</span>
-            <span class="article-all"><a href="/blog/archives/">More Articles</a></span>
-            {{#if article.tags}}
-                <span class="article-tags">
-                Tags:
-                {{#article.tags}}
-                    <a href="/blog/tag/{{.}}/">{{.}}</a>,
-                {{/article.tags}}
-                <a href="/blog/archives/">all</a>
-                </span>
-            {{/if}}
-        </div>
-    </div>
-</div>
+<p>
+  Written by <a href="http://twitter.com/caridy">@caridy</a> | {{article.formatted_date}}
+  {{#if article.tags}}
+  <br/>Tags:
+  {{#article.tags}}
+    <a href="/blog/tag/{{.}}/">{{.}}</a>,
+  {{/article.tags}}
+  <a href="/blog/archives/">all</a>
+  {{/if}}
+</p>
