@@ -1,3 +1,5 @@
+<p><small><i>Disclaimer: This article is a call for action on this topic.</i></small></p>
+
 ### Introduction
 
 In the field of artificial intelligence, large language models (LLMs) have emerged as powerful tools capable of understanding and generating human-like text. Their applications span diverse domains, from answering questions and writing code to translating languages and creating poetry. Among these LLMs, open-source models like [Meta's Llama](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) have democratized access to advanced AI capabilities, fueling a surge in development and deployment across various platforms.
