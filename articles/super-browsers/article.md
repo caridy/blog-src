@@ -2,7 +2,7 @@ As I navigate the ever-evolving landscape of technology, I find myselves specula
 
 But what exactly could Large Language Models bring to the table if integrated into browsers? Let's explore some of the possibilities.
 
-## The Potential of LLMs in Super Browsers
+### The Potential of LLMs in Super Browsers
 
 The integration of Large Language Models (LLMs) into browsers, or what we're calling "Super Browsers", could open up a world of possibilities for both web developers and users. After seeing what Microsoft is doing with Bing, and how they are integrating LLMs into their search engine as a first class citizen in Edge, and as a second class citizen in other browsers, it is not hard to imagine that using a local LLM when available could be the next step. The only remaining question is whether developers would be able to tap into these capabilities, and how.
 
@@ -12,7 +12,7 @@ Moreover, the integration of LLMs into browsers could also lead to cost savings 
 
 For users, Super Browsers could offer more intelligent and interactive experiences. With LLMs, browsers could understand user inputs in a more nuanced way, generating more accurate and relevant responses. This could lead to more efficient browsing experiences, with users spending less time searching for information and more time engaging with content that is relevant and meaningful to them.
 
-## Challenges and Considerations for Super Browsers
+### Challenges and Considerations for Super Browsers
 
 While the integration of Large Language Models into browsers presents exciting possibilities, it also brings with it a set of challenges and considerations.
 
@@ -22,7 +22,7 @@ Privacy and security are also important considerations. While running LLMs local
 
 Another consideration is the standardization of LLMs across different browsers and devices. To ensure a consistent user experience, there would need to be some level of standardization in how LLMs are integrated and how they function. This could involve the development of new web standards or the adaptation of existing ones. While it's hard to predict exactly how these technologies will evolve, it is possible that the evergreen model used by browsers today has paved the way for LLMs to be integrated seamlessly.
 
-## Looking Ahead: The Future of Super Browsers
+### Looking Ahead: The Future of Super Browsers
 
 As we look ahead, the potential integration of Large Language Models into browsers and operating systems presents a fascinating glimpse into a possible future of web interaction.
 
@@ -40,6 +40,6 @@ Browsers may have integrated agents that understand user intent and respond acco
 
 I believe these capabilities would inevitably become accessible to web applications as well. As is customary, mobile apps may gain access first, and then the open web would follow. The web is the most accessible platform, and stands to benefit greatly from this level of LLM integration and capability exposure.
 
-## Embracing the Future with Super Browsers
+### Embracing the Future with Super Browsers
 
 As we look to the future, the integration of LLMs into browsers could profoundly reshape web experiences. But this journey involves challenges around performance, privacy, and standardization that require thoughtful solutions. By having open conversations across stakeholders, we can responsibly realize the possibilities of this emerging technology. Super browsers have exciting potential, but realizing it in measured ways will be key.
