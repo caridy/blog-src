@@ -1,5 +1,3 @@
-## Domain-Specific AI Agents: Harnessing Inline Functions in Planners
-
 ### Introduction
 
 In the realm of computer science, particularly in language design and software architecture, the concept of agent planners has garnered attention. These agents, designed to interact with specific domains and private data, promise a level of interaction akin to human expertise. However, while their potential is evident, their current implementations often fall short when faced with the intricate demands of domain-specific tasks.
