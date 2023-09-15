@@ -91,6 +91,7 @@ Here's how an agent plan might look using this approach:
       "@func": "FetchProductSales",
       "@args": [
         {
+          "date": "2023-09-15T14:31:08.604Z",
           "timeframe": [5, "weeks"]
         }
       ]
@@ -104,7 +105,7 @@ Here's how an agent plan might look using this approach:
             yValues: { 'Weekday Revenue': [], 'Weekend Revenue': [] }, \
             labels: ['Weekday Revenue', 'Weekend Revenue'] \
           }; \
-          let currentDate = new Date(Date.now()); \
+          let currentDate = new Date('2023-09-15T14:31:08.604Z'); \
           for(let i = 0; i < 5; i++) { \
             let startOfWeek = new Date(currentDate - (i * 7 * 24 * 60 * 60 * 1000)); \
             let endOfWeek = new Date(startOfWeek - (7 * 24 * 60 * 60 * 1000)); \
