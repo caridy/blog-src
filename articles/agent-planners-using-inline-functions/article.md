@@ -1,10 +1,10 @@
 ### Introduction
 
-In the realm of computer science, particularly in language design and software architecture, the concept of agent planners has garnered attention. These agents, designed to interact with specific domains and private data, promise a level of interaction akin to human expertise. However, while their potential is evident, their current implementations often fall short when faced with the intricate demands of domain-specific tasks.
+The concept of agent planners has garnered attention. These agents, designed to interact with specific domains and private data, promise a level of interaction akin to human expertise. However, while their potential is evident, their current implementations often fall short when faced with the intricate demands of domain-specific tasks.
 
 Agent planners play a pivotal role in deciphering and executing tasks. They act as the brain, interpreting user prompts and orchestrating a series of actions to fulfill the request. Central to this orchestration are functions - predefined sets of instructions that the planner can call upon. But relying solely on static functions can be limiting. As we delve deeper, we'll explore these limitations and how inline functions can offer a more dynamic and flexible solution.
 
-This exploration isn't merely about data retrieval; it's about comprehension, processing, and meaningful interaction. The question arises: why do these domain-specific agents falter, and how can their design be refined? Let's dive in to address these challenges and propose a pragmatic approach to enhance their capabilities.
+This exploration isn't merely about data retrieval; it's about comprehension, processing, and computations. The question arises: why do these domain-specific agents falter, and how can their design be refined? Let's dive in to address these challenges and propose a pragmatic approach to enhance their capabilities.
 
 ### The Shortcomings of Domain-Specific Agents
 
@@ -13,7 +13,7 @@ In the realm of software design, we imagined domain-specific agents as the ideal
 Yet, the practical outcomes have been far from this vision. Here's why:
 
 1. __Limited Data Interaction__: Agents can pull data, but they often stumble with complex data structures. This makes it tough to extract meaningful information or provide clear answers.
-1. __Data Processing Challenges__: It's not just about fetching data; agents must also process it. They struggle with tasks like column aggregation or advanced computations.
+1. __Data Processing Challenges__: It's not just about fetching data; agents must also process it. They struggle with tasks like column aggregation or advanced data computations.
 1. __Fixed Functionality__: Many agents are bound by a set list of functions for data interaction. This lack of flexibility hampers their ability to adapt to varied user requests.
 1. __SQL-like Queries__: Agents generating SQL-style queries face hurdles when data is spread across multiple platforms. Integrating related but separate data sources becomes a significant challenge.
 
@@ -21,7 +21,7 @@ These issues underscore the gap between what we hoped domain-specific agents wou
 
 ### The Limitations of Static Functions in Handling Collections and Data Interpretation
 
-When designing agents, a common approach is to rely on static functions, especially for tasks that involve data manipulation. However, several challenges arise:
+When designing agents, a common approach is to rely on static functions, especially for tasks that involve data federation, extraction and manipulation. However, several challenges arise:
 
 1. __Handling Collections__: Static functions that return collections, such as arrays, pose a unique challenge for agent planners. These planners are inherently designed for sequential operations, not for complex operations on collections like filtering or reducing. To address this, developers often find themselves in a loop, constantly introducing new static functions to handle the nuances of collection operations. This leads to an ever-expanding and increasingly complex set of functions, making maintenance and scalability a concern.
 1. __Data Interpretation__: Another limitation surfaces when agents need to interpret data from previous static function responses. Instead of directly accessing and manipulating the raw data, agents often make additional calls to the LLM for interpretation. This approach has several drawbacks:
